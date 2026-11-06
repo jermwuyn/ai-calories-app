@@ -1,4 +1,4 @@
-FRAGMA forgeign_keys = ON;
+PRAGMA forgeign_keys = ON;
 
 -- 1. Nguon du lieu dinh duong
 create TABLE if NOT EXISTS data_sources(
@@ -32,7 +32,7 @@ create TABLE IF NOT EXISTS ingredient_nutrients(
         CHECK(amount_per_100g >= 0),
     source_id INTEGER NOT NULL,
 
-    PRIMARY KEY(ingredient_id, nutrtient_id),
+    PRIMARY KEY(ingredient_id, nutrient_id),
     FOREIGN KEY(ingredient_id)
         REFERENCES ingredients(id),
     FOREIGN KEY(nutrient_id)
