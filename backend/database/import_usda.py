@@ -248,5 +248,37 @@ def import_food():
         conn.close()
 
 
+
 if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description="Import USDA ingredient into AI Calories"
+    )
+
+    parser.add_argument(
+        "--fdc-id",
+        type=int,
+        required=True
+    )
+
+    parser.add_argument(
+        "--name-vi",
+        type=str,
+        required=True
+    )
+
+    parser.add_argument(
+        "--state",
+        type=str,
+        required=True
+    )
+
+    args = parser.parse_args()
+
+    FDC_ID = args.fdc_id
+    NAME_VI = args.name_vi
+    PREPARATION_STATE = args.state
+
     import_food()
+
