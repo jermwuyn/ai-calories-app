@@ -1,6 +1,6 @@
 ﻿# AI Calories
 
-AI-powered food recognition and nutrition tracking application.
+Food recognition and nutrition tracking application.
 
 ## Architecture
 - Food Recognition: EfficientNet-B0
@@ -8,7 +8,7 @@ AI-powered food recognition and nutrition tracking application.
 - Recipe Database
 - Nutrition Calculator
 - Backend: FastAPI
-- Frontend: To be developed
+- Frontend: Update later
 
 ## Project Structure
 - backend/

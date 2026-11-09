@@ -99,3 +99,78 @@ def calculate_recipe(recipe_id: int, db_path=DB_PATH):
         **recipe,
         "nutrition": result,
     }
+
+import math
+
+
+def calculate_recipe_custom(
+    recipe_id: int,
+    components: list[dict],
+    db_path=DB_PATH,
+):
+    """
+    Calculate a customized recipe without changing SQLite.
+
+    Example:
+        [
+            {"ingredient_id": 1, "grams": 200},
+            {"ingredient_id": 2, "grams": 100},
+        ]
+
+    Remove an ingredient by excluding it from the list.
+    Add an ingredient by supplying a valid ingredient_id.
+    """
+
+    recipe = get_recipe(recipe_id, db_path)
+
+    if not isinstance(components, list) or not components:
+        raise ValueError("Components must be a non-empty list")
+
+    normalized = []
+    seen_ids = set()
+
+    for item in components:
+        if not isinstance(item, dict):
+            raise ValueError("Each component must be an object")
+
+        ingredient_id = item.get("ingredient_id")
+        grams = item.get("grams")
+
+        if type(ingredient_id) is not int or ingredient_id <= 0:
+            raise ValueError("Invalid ingredient ID")
+
+        if ingredient_id in seen_ids:
+            raise ValueError(
+                f"Duplicate ingredient ID: {ingredient_id}"
+            )
+
+        if (
+            isinstance(grams, bool)
+            or not isinstance(grams, (int, float))
+            or not math.isfinite(grams)
+            or grams <= 0
+        ):
+            raise ValueError(
+                f"Invalid weight for ingredient {ingredient_id}"
+            )
+
+        seen_ids.add(ingredient_id)
+
+        normalized.append({
+            "ingredient_id": ingredient_id,
+            "grams": float(grams),
+        })
+
+    nutrition = calculate_nutrition(
+        normalized,
+        db_path=db_path,
+    )
+
+    return {
+        "recipe_id": recipe["recipe_id"],
+        "food_id": recipe["food_id"],
+        "food_name": recipe["food_name"],
+        "recipe_name": recipe["recipe_name"],
+        "is_customized": True,
+        "nutrition": nutrition,
+    }
