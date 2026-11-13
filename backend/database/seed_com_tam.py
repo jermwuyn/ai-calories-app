@@ -4,7 +4,7 @@ from pathlib import Path
 
 DB_PATH = Path(__file__).resolve().parent / "nutrition.db"
 
-FOOD_NAME = "Cơm tấm sườn trứng"
+FOOD_NAME = "Cơm tấm"
 RECIPE_NAME = "Cơm tấm sườn trứng - test"
 SERVING_G = 370.0
 

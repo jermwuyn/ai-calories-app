@@ -2,14 +2,19 @@
 from backend.usda_client import search_foods
 
 # Candidate searches for Bun bo Hue.
+
 QUERIES = {
-    "Rice noodles": "Rice noodles, cooked",
-    "Beef shank": "Beef, shank, cooked",
-    "Pork": "Pork, leg, cooked",
-    "Bean sprouts": "Mung bean sprouts, raw",
-    "Lemongrass": "Lemongrass",
-    "Fish sauce": "Fish sauce",
+    "Pork hock": "Pork, hock",
+    "Pork shoulder": "Pork, shoulder, cooked",
+    "Lemongrass": "Lemongrass, raw",
+    "Onion": "Onions, raw",
+    "Garlic": "Garlic, raw",
+    "Chili": "Peppers, hot chili, red, raw",
+    "Beef broth": "Soup, stock, beef",
+    "Coriander": "Coriander (cilantro) leaves, raw",
+    "Shrimp paste": "Shrimp paste",
 }
+
 
 
 def main():

@@ -1,0 +1,75 @@
+
+[
+  {
+    "fdc_id": 168914,
+    "name_vi": "Bún gạo đã nấu (USDA)",
+    "state": "cooked",
+    "expected_description": "Rice noodles, cooked",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 169442,
+    "name_vi": "Bắp bò ninh (phần nạc ăn được)",
+    "state": "cooked_simmered",
+    "expected_description": "Beef, shank crosscuts, separable lean only, trimmed to 1/4\" fat, choice, cooked, simmered",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 169957,
+    "name_vi": "Giá đỗ xanh sống",
+    "state": "raw",
+    "expected_description": "Mung beans, mature seeds, sprouted, raw",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 174531,
+    "name_vi": "Nước mắm (USDA, ready-to-serve)",
+    "state": "ready_to_serve",
+    "expected_description": "Sauce, fish, ready-to-serve",
+    "reviewed": true
+  },
+
+{
+  "fdc_id": 170000,
+  "name_vi": "Hành tây sống",
+  "state": "raw",
+  "expected_description": "Onions, raw",
+  "reviewed": true
+},
+{
+  "fdc_id": 169230,
+  "name_vi": "Tỏi tươi",
+  "state": "raw",
+  "expected_description": "Garlic, raw",
+  "reviewed": true
+},
+{
+  "fdc_id": 170106,
+  "name_vi": "Ớt đỏ tươi",
+  "state": "raw",
+  "expected_description": "Peppers, hot chili, red, raw",
+  "reviewed": true
+},
+{
+  "fdc_id": 172883,
+  "name_vi": "Nước dùng bò tự nấu (USDA)",
+  "state": "cooked_stock",
+  "expected_description": "Soup, stock, beef, home-prepared",
+  "reviewed": true
+},
+{
+  "fdc_id": 169997,
+  "name_vi": "Rau ngò rí tươi",
+  "state": "raw",
+  "expected_description": "Coriander (cilantro) leaves, raw",
+  "reviewed": true
+},
+{
+  "fdc_id": 168256,
+  "name_vi": "Thịt vai heo om (nạc và mỡ, phần ăn được)",
+  "state": "cooked_braised",
+  "expected_description": "Pork, fresh, shoulder, arm picnic, separable lean and fat, cooked, braised",
+  "reviewed": true
+}
+
+]

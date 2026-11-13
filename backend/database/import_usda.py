@@ -35,6 +35,10 @@ NUTRIENT_MAP = {
     1178: ("vitamin_b12", "µg"),
     1106: ("vitamin_a", "µg"),
     1114: ("vitamin_d", "µg"),
+    1079: ("fiber", "g"),
+    2000: ("total_sugars", "g"),
+    1257: ("trans_fat", "g"),
+
 }
 
 
