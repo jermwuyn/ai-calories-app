@@ -1,4 +1,4 @@
-PRAGMA forgeign_keys = ON;
+PRAGMA foreign_keys = ON;
 
 -- 1. Nguon du lieu dinh duong
 create TABLE if NOT EXISTS data_sources(
@@ -45,7 +45,7 @@ create TABLE IF NOT EXISTS ingredient_nutrients(
 create TABLE IF NOT EXISTS foods(
     id INTEGER PRIMARY KEY,
     canonical_id TEXT UNIQUE,
-    model_class_index INTEGERR UNIQUE,
+    model_class_index INTEGER UNIQUE,
     name_vi TEXT NOT NULL,
     name_en TEXT
 );

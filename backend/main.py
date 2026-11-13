@@ -14,17 +14,22 @@ from PIL import Image, UnidentifiedImageError
 from fastapi import File, UploadFile, Query
 
 from backend.services.model_service import predict_food
+from fastapi.middleware.cors import CORSMiddleware
 
-DB_PATH = (
-    Path(__file__).resolve().parent
-    / "database"
-    / "nutrition.db"
-)
+from backend.config import DB_PATH, CORS_ORIGINS
 
 app = FastAPI(
     title="AI Calories API",
     description="Food recognition and nutrition analysis",
     version="0.1.0",
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=CORS_ORIGINS,
+    allow_credentials=False,
+    allow_methods=["GET", "POST"],
+    allow_headers=["Content-Type"],
 )
 
 
@@ -220,6 +225,9 @@ def predict_food_endpoint(
                     top_k=top_k,
                 )
 
+        except (FileNotFoundError, RuntimeError) as exc:
+            raise HTTPException(status_code=503, detail=str(exc)) from exc
+
         except (
             UnidentifiedImageError,
             OSError,
@@ -289,7 +297,7 @@ def get_food_by_canonical_id(canonical_id: str):
             (food["id"],),
         ).fetchall()
 
-        recipe_list = [dict(row) for row in recipes]
+        recipe_list = [{**dict(row), "profile_type": get_recipe(row["id"], db_path=DB_PATH)["profile_type"]} for row in recipes]
 
         return {
             "canonical_id": canonical_id,

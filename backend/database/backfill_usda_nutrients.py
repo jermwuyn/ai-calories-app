@@ -12,9 +12,7 @@ from backend.database import import_usda
 
 DB_PATH = import_usda.DB_PATH
 
-BACKUP_DIR = Path(
-    r"D:\Code\ai-calories-db-backups"
-)
+from backend.config import BACKUP_DIR
 
 SOURCE_NAME = "USDA FoodData Central - SR Legacy"
 

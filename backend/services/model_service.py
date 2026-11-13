@@ -1,68 +1,23 @@
-
-import os
-import sys
-from pathlib import Path
+"""Self-contained inference with a verified, trusted release checkpoint."""
+import hashlib
+import json
 from functools import lru_cache
-
-
-# Both repositories are located in D:\Code
-CODE_DIR = Path(__file__).resolve().parents[3]
-
-MODEL_REPO = Path(
-    os.environ.get(
-        "AI_CALORIES_MODEL_REPO",
-        str(CODE_DIR / "ai-calories-model"),
-    )
-).resolve()
-
-CHECKPOINT_PATH = (
-    MODEL_REPO
-    / "runs"
-    / "exp-001-unified4-v2"
-    / "best.pth"
-)
-
+from backend.config import CHECKPOINT_PATH, ROOT
 
 @lru_cache(maxsize=1)
 def get_classifier():
-    """
-    Load the trained classifier and cache the instance.
-
-    Only use our own trusted checkpoint.
-    """
-
     if not CHECKPOINT_PATH.is_file():
-        raise FileNotFoundError(
-            f"Model checkpoint not found: {CHECKPOINT_PATH}"
-        )
-
-    if not (MODEL_REPO / "classification").is_dir():
-        raise FileNotFoundError(
-            f"Model source code not found: {MODEL_REPO}"
-        )
-
-    # Import the existing model implementation.
-    model_repo_str = str(MODEL_REPO)
-
-    if model_repo_str not in sys.path:
-        sys.path.insert(0, model_repo_str)
-
-    from classification.inference import FoodClassifier
-
-    classifier = FoodClassifier(
-        checkpoint=CHECKPOINT_PATH,
-        device="cpu",
-    )
-
+        raise FileNotFoundError('Model checkpoint missing. Run python scripts/setup.py (see README.md).')
+    manifest = json.loads((ROOT / 'release/model.json').read_text(encoding='utf-8'))
+    with CHECKPOINT_PATH.open('rb') as stream:
+        digest = hashlib.file_digest(stream, 'sha256').hexdigest()
+    if digest != manifest['sha256']:
+        raise RuntimeError('Model checksum mismatch. Install the trusted v0.1.0 checkpoint using scripts/setup.py.')
+    from backend.inference.classifier import FoodClassifier
+    classifier = FoodClassifier(CHECKPOINT_PATH, device='cpu')
+    if len(classifier.classes) != manifest['class_count'] or classifier.mapping.get('version') != manifest['taxonomy']:
+        raise RuntimeError('Unexpected model taxonomy')
     return classifier
 
-
 def predict_food(image, top_k=3):
-    """Predict food classes from an image."""
-
-    classifier = get_classifier()
-
-    return classifier.predict(
-        image=image,
-        top_k=top_k,
-    )
+    return get_classifier().predict(image=image, top_k=top_k)

@@ -1,0 +1,9 @@
+{
+  "version": "0.1.0",
+  "filename": "best.pth",
+  "sha256": "48046928db30c2fcd4daf78f4a677b10ed37d08ba0cf82dd17a17266ef49de11",
+  "size_bytes": 64354977,
+  "taxonomy": "unified-food-4-v2",
+  "class_count": 310,
+  "url": "https://github.com/jermwuyn/ai-calories-app/releases/download/v0.1.0/best.pth"
+}

@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0",
+  "path": "backend/database/seeds/nutrition-v0.1.0.sqlite3",
+  "sha256": "d90ad246f608ab727f20ee28e6d7149b85e878908a40940b1e2a87eaca86baa1",
+  "counts": {
+    "data_sources": 88,
+    "ingredients": 88,
+    "nutrients": 21,
+    "ingredient_nutrients": 1668,
+    "foods": 77,
+    "recipes": 77,
+    "recipe_ingredients": 80
+  },
+  "model_mappings": 77
+}

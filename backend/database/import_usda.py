@@ -9,7 +9,7 @@ sys.path.insert(0, str(ROOT))
 
 from backend.usda_client import get_food_details
 
-DB_PATH = ROOT / "backend/database/nutrition.db"
+from backend.config import DB_PATH
 
 FDC_ID = 168930
 NAME_VI = "Cơm trắng (gạo hạt vừa, đã nấu)"

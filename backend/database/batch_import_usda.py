@@ -11,11 +11,12 @@ import os
 from backend.usda_client import get_food_details
 
 ROOT = Path(__file__).resolve().parents[2]
-DB_PATH = ROOT / "backend/database/nutrition.db"
+from backend.config import DB_PATH
 MANIFEST = ROOT / "backend/database/usda_batch.json"
 IMPORTER = ROOT / "backend/database/import_usda.py"
 
-REPORT_DIR = Path(r"D:\Code\ai-calories-db-backups\import-reports")
+from backend.config import BACKUP_DIR
+REPORT_DIR = BACKUP_DIR / "import-reports"
 
 
 def validate_manifest(items):

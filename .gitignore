@@ -21,3 +21,7 @@ checkpoints/
 
 .vscode/
 .DS_Store
+
+!.env.example
+!backend/database/seeds/nutrition-v0.1.0.sqlite3
+local/

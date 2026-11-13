@@ -1,0 +1,32 @@
+{
+  "taxonomy_version": "unified-food-4-v2",
+  "predictions": [
+    {
+      "model_index": 288,
+      "canonical_id": "food-v2-291",
+      "name_vi": "bo-kho",
+      "name_en": null,
+      "display_name": "bo-kho",
+      "score": 0.137482151389122
+    },
+    {
+      "model_index": 45,
+      "canonical_id": "food-v2-045",
+      "name_vi": null,
+      "name_en": "chip butty",
+      "display_name": "chip butty",
+      "score": 0.10996783524751663
+    },
+    {
+      "model_index": 10,
+      "canonical_id": "food-v2-010",
+      "name_vi": "Banh pia",
+      "name_en": null,
+      "display_name": "Banh pia",
+      "score": 0.10783474892377853
+    }
+  ],
+  "requires_confirmation": true,
+  "score_type": "uncalibrated_softmax",
+  "nutrition_status": "requires_confirmed_food_profile_and_portion"
+}

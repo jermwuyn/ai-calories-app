@@ -1,0 +1,546 @@
+{
+  "taxonomy": "unified-food-4-v2",
+  "by_canonical_id": {
+    "food-v2-256": [
+      {
+        "basis": "per_100g_edible",
+        "canonical_id": "food-v2-256",
+        "model_class": "ayam goreng",
+        "reference_dish": "Ayam goreng kalasan, paha",
+        "source_food_code": "FP024",
+        "source": "https://repository.kemkes.go.id/book/777",
+        "transcription_source": "https://pt.slideshare.net/slideshow/tkpimahmud-dkk2017tkpikemenkes-ripdf/256578673",
+        "reference_mass_g": 100,
+        "serving_mass_g": null,
+        "energy_kcal": 275,
+        "protein_g": 37.4,
+        "fat_g": 12.2,
+        "carbohydrate_g": 1.3
+      }
+    ],
+    "food-v2-259": [
+      {
+        "basis": "per_100g_edible",
+        "canonical_id": "food-v2-259",
+        "model_class": "gulai",
+        "reference_dish": "Gulai kambing",
+        "source_food_code": "FP047",
+        "source": "https://repository.kemkes.go.id/book/777",
+        "transcription_source": "https://pt.slideshare.net/slideshow/tkpimahmud-dkk2017tkpikemenkes-ripdf/256578673",
+        "reference_mass_g": 100,
+        "serving_mass_g": null,
+        "energy_kcal": 126,
+        "protein_g": 4.2,
+        "fat_g": 9.4,
+        "carbohydrate_g": 6.2
+      }
+    ],
+    "food-v2-249": [
+      {
+        "basis": "per_100g_edible",
+        "canonical_id": "food-v2-249",
+        "model_class": "oxtail soup",
+        "reference_dish": "Sop buntut, masakan",
+        "source_food_code": "FP068",
+        "source": "https://repository.kemkes.go.id/book/777",
+        "transcription_source": "https://pt.slideshare.net/slideshow/tkpimahmud-dkk2017tkpikemenkes-ripdf/256578673",
+        "reference_mass_g": 100,
+        "serving_mass_g": null,
+        "energy_kcal": 71,
+        "protein_g": 7.5,
+        "fat_g": 3.6,
+        "carbohydrate_g": 2.2
+      }
+    ],
+    "food-v2-119": [
+      {
+        "basis": "per_100g_edible",
+        "canonical_id": "food-v2-119",
+        "model_class": "pork miso soup",
+        "reference_dish": "Tonjiru (Miso soup with pork and vegetables)",
+        "source_row": 32,
+        "reference_mass_g": 100,
+        "serving_mass_g": null,
+        "source": "https://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/08/02/1385123_Table24.xlsx",
+        "energy_kcal": 27.0,
+        "protein_g": 1.5,
+        "fat_g": 1.5,
+        "carbohydrate_g": 2.0
+      }
+    ],
+    "food-v2-122": [
+      {
+        "basis": "per_100g_edible",
+        "canonical_id": "food-v2-122",
+        "model_class": "kinpira-style sauteed burdock",
+        "reference_dish": "Kinpira Gobo (Chopped burdock root cooked in soy sauce and sugar)",
+        "source_row": 53,
+        "reference_mass_g": 100,
+        "serving_mass_g": null,
+        "source": "https://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/08/02/1385123_Table24.xlsx",
+        "energy_kcal": 88.0,
+        "protein_g": 1.4,
+        "fat_g": 3.9,
+        "carbohydrate_g": 11.7
+      }
+    ],
+    "food-v2-104": [
+      {
+        "basis": "per_100g_edible",
+        "canonical_id": "food-v2-104",
+        "model_class": "boiled chicken and vegetables",
+        "reference_dish": "Chikuzenni (Simmered root vegetables with chicken)",
+        "source_row": 61,
+        "reference_mass_g": 100,
+        "serving_mass_g": null,
+        "source": "https://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/08/02/1385123_Table24.xlsx",
+        "energy_kcal": 88.0,
+        "protein_g": 4.4,
+        "fat_g": 3.3,
+        "carbohydrate_g": 10.1
+      }
+    ],
+    "food-v2-086": [
+      {
+        "basis": "per_100g_edible",
+        "canonical_id": "food-v2-086",
+        "model_class": "nanbanzuke",
+        "reference_dish": "Aji no Nanbanzuke (Marinated small horse mackerel in vinegar Namban style)",
+        "source_row": 74,
+        "reference_mass_g": 100,
+        "serving_mass_g": null,
+        "source": "https://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/08/02/1385123_Table24.xlsx",
+        "energy_kcal": 113.0,
+        "protein_g": 8.1,
+        "fat_g": 6.1,
+        "carbohydrate_g": 6.3
+      }
+    ],
+    "food-v2-071": [
+      {
+        "basis": "per_100g_edible",
+        "canonical_id": "food-v2-071",
+        "model_class": "jiaozi",
+        "reference_dish": "Gyoza (Fried dumplings)",
+        "source_row": 86,
+        "reference_mass_g": 100,
+        "serving_mass_g": null,
+        "source": "https://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/08/02/1385123_Table24.xlsx",
+        "energy_kcal": 218.0,
+        "protein_g": 6.9,
+        "fat_g": 11.3,
+        "carbohydrate_g": 22.3
+      }
+    ],
+    "food-v2-110": [
+      {
+        "basis": "per_100g_edible",
+        "canonical_id": "food-v2-110",
+        "model_class": "steamed meat dumpling",
+        "reference_dish": "Shaomai (Steamed Chinese meat dumpling)",
+        "source_row": 90,
+        "reference_mass_g": 100,
+        "serving_mass_g": null,
+        "source": "https://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/08/02/1385123_Table24.xlsx",
+        "energy_kcal": 197.0,
+        "protein_g": 9.1,
+        "fat_g": 9.2,
+        "carbohydrate_g": 19.6
+      }
+    ],
+    "food-v2-150": [
+      {
+        "basis": "per_100g_edible",
+        "canonical_id": "food-v2-150",
+        "model_class": "chop suey",
+        "reference_dish": "Happosai(Chop suey)",
+        "source_row": 103,
+        "reference_mass_g": 100,
+        "serving_mass_g": null,
+        "source": "https://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/08/02/1385123_Table24.xlsx",
+        "energy_kcal": 67.0,
+        "protein_g": 5.8,
+        "fat_g": 3.2,
+        "carbohydrate_g": 3.8
+      }
+    ],
+    "food-v2-093": [
+      {
+        "basis": "per_100g_edible",
+        "canonical_id": "food-v2-093",
+        "model_class": "spicy chili-flavored tofu",
+        "reference_dish": "Mabo tofu bean curd with minced meat",
+        "source_row": 107,
+        "reference_mass_g": 100,
+        "serving_mass_g": null,
+        "source": "https://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/08/02/1385123_Table24.xlsx",
+        "energy_kcal": 106.0,
+        "protein_g": 7.7,
+        "fat_g": 6.5,
+        "carbohydrate_g": 4.0
+      }
+    ],
+    "food-v2-061": [
+      {
+        "basis": "per_100g_edible",
+        "canonical_id": "food-v2-061",
+        "model_class": "croquette",
+        "reference_dish": "Potato croquette",
+        "source_row": 134,
+        "reference_mass_g": 100,
+        "serving_mass_g": null,
+        "source": "https://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/08/02/1385123_Table24.xlsx",
+        "energy_kcal": 236.0,
+        "protein_g": 5.2,
+        "fat_g": 12.6,
+        "carbohydrate_g": 25.4
+      }
+    ],
+    "food-v2-072": [
+      {
+        "basis": "per_100g_edible",
+        "canonical_id": "food-v2-072",
+        "model_class": "stew",
+        "reference_dish": "Beef stew\n     (Brown stew)",
+        "source_row": 143,
+        "reference_mass_g": 100,
+        "serving_mass_g": null,
+        "source": "https://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/08/02/1385123_Table24.xlsx",
+        "energy_kcal": 158.0,
+        "protein_g": 4.0,
+        "fat_g": 12.6,
+        "carbohydrate_g": 7.1
+      }
+    ],
+    "food-v2-066": [
+      {
+        "basis": "per_100g_edible",
+        "canonical_id": "food-v2-066",
+        "model_class": "potage",
+        "reference_dish": "Corn cream soup",
+        "source_row": 157,
+        "reference_mass_g": 100,
+        "serving_mass_g": null,
+        "source": "https://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/08/02/1385123_Table24.xlsx",
+        "energy_kcal": 64.0,
+        "protein_g": 1.7,
+        "fat_g": 2.6,
+        "carbohydrate_g": 8.5
+      }
+    ],
+    "food-v2-089": [
+      {
+        "basis": "per_100g_edible",
+        "canonical_id": "food-v2-089",
+        "model_class": "hambarg steak",
+        "reference_dish": "Beef and pork hamburg",
+        "source_row": 162,
+        "reference_mass_g": 100,
+        "serving_mass_g": null,
+        "source": "https://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/08/02/1385123_Table24.xlsx",
+        "energy_kcal": 203.0,
+        "protein_g": 13.3,
+        "fat_g": 12.2,
+        "carbohydrate_g": 10.1
+      }
+    ],
+    "food-v2-059": [
+      {
+        "basis": "per_100g_edible",
+        "canonical_id": "food-v2-059",
+        "model_class": "gratin",
+        "reference_dish": "Shrimp gratin",
+        "source_row": 196,
+        "reference_mass_g": 100,
+        "serving_mass_g": null,
+        "source": "https://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/08/02/1385123_Table24.xlsx",
+        "energy_kcal": 132.0,
+        "protein_g": 5.4,
+        "fat_g": 7.0,
+        "carbohydrate_g": 12.0
+      }
+    ],
+    "food-v2-027": [
+      {
+        "basis": "per_100g_edible",
+        "canonical_id": "food-v2-027",
+        "model_class": "Nem chua",
+        "reference_dish": "Nem chua",
+        "source_food_code": "7073",
+        "source_printed_page": 351,
+        "reference_mass_g": 100,
+        "serving_mass_g": null,
+        "source": "https://www.fao.org/fileadmin/templates/food_composition/documents/pdf/VTN_FCT_2007.pdf",
+        "energy_kcal": 137,
+        "protein_g": 21.7,
+        "fat_g": 3.7,
+        "carbohydrate_g": 4.3
+      }
+    ],
+    "food-v2-006": [
+      {
+        "basis": "per_100g_edible",
+        "carbohydrate_g": 11.4,
+        "protein_g": 0.9,
+        "serving_mass_g": null,
+        "canonical_id": "food-v2-006",
+        "model_class": "Banh duc",
+        "source_locator": "Phụ lục 7, dòng 5",
+        "fat_g": 0.3,
+        "reference_mass_g": 100,
+        "source": "https://viendinhduong.vn/storage/app/uploads/public/2026/05/26/q_3958qbyt_huong_dan_dinh_duong_bua_an_hoc_uong.pdf",
+        "energy_kcal": 52,
+        "reference_dish": "Bánh đúc"
+      }
+    ],
+    "food-v2-031": [
+      {
+        "basis": "per_menu_serving",
+        "canonical_id": "food-v2-031",
+        "dish": "鰻重",
+        "size": "一枚盛",
+        "provider": "Yoshinoya",
+        "source_date": "2026-04-09",
+        "source": "https://www.yoshinoya.com/pdf/allergy/",
+        "serving_mass_g": null,
+        "energy_kcal": 718,
+        "protein_g": 32.2,
+        "fat_g": 23.8,
+        "carbohydrate_g": 99.0
+      }
+    ],
+    "food-v2-121": [
+      {
+        "basis": "per_menu_serving",
+        "canonical_id": "food-v2-121",
+        "dish": "牛丼",
+        "size": "並盛",
+        "provider": "Yoshinoya",
+        "source_date": "2026-04-09",
+        "source": "https://www.yoshinoya.com/pdf/allergy/",
+        "serving_mass_g": null,
+        "energy_kcal": 633,
+        "protein_g": 19.6,
+        "fat_g": 23.6,
+        "carbohydrate_g": 88.2
+      }
+    ],
+    "food-v2-033": [
+      {
+        "basis": "per_menu_serving",
+        "canonical_id": "food-v2-033",
+        "dish": "親子丼",
+        "size": "並盛",
+        "provider": "Nakau",
+        "source_date": "2022-04-21",
+        "source": "https://www.nakau.co.jp/jp/pdf/n_eiyouseibun_list.pdf",
+        "serving_mass_g": null,
+        "energy_kcal": 620,
+        "protein_g": 28.9,
+        "fat_g": 12.1,
+        "carbohydrate_g": 94.9
+      }
+    ],
+    "food-v2-034": [
+      {
+        "basis": "per_menu_serving",
+        "canonical_id": "food-v2-034",
+        "dish": "カツ丼",
+        "size": "並盛",
+        "provider": "Nakau",
+        "source_date": "2022-04-21",
+        "source": "https://www.nakau.co.jp/jp/pdf/n_eiyouseibun_list.pdf",
+        "serving_mass_g": null,
+        "energy_kcal": 820,
+        "protein_g": 29.9,
+        "fat_g": 28.4,
+        "carbohydrate_g": 107.8
+      }
+    ],
+    "food-v2-039": [
+      {
+        "basis": "per_menu_serving",
+        "canonical_id": "food-v2-039",
+        "dish": "特製かき揚げ丼",
+        "size": "並盛",
+        "provider": "Nakau",
+        "source_date": "2022-04-21",
+        "source": "https://www.nakau.co.jp/jp/pdf/n_eiyouseibun_list.pdf",
+        "serving_mass_g": null,
+        "energy_kcal": 623,
+        "protein_g": 10.0,
+        "fat_g": 17.3,
+        "carbohydrate_g": 102.8
+      }
+    ],
+    "food-v2-049": [
+      {
+        "basis": "per_menu_serving",
+        "canonical_id": "food-v2-049",
+        "dish": "ざるうどん",
+        "size": "並",
+        "provider": "Nakau",
+        "source_date": "2022-04-21",
+        "source": "https://www.nakau.co.jp/jp/pdf/n_eiyouseibun_list.pdf",
+        "serving_mass_g": null,
+        "energy_kcal": 319,
+        "protein_g": 10.2,
+        "fat_g": 1.5,
+        "carbohydrate_g": 67.0
+      }
+    ],
+    "food-v2-050": [
+      {
+        "basis": "per_menu_serving",
+        "canonical_id": "food-v2-050",
+        "dish": "特製かき揚げうどん",
+        "size": "並",
+        "provider": "Nakau",
+        "source_date": "2022-04-21",
+        "source": "https://www.nakau.co.jp/jp/pdf/n_eiyouseibun_list.pdf",
+        "serving_mass_g": null,
+        "energy_kcal": 461,
+        "protein_g": 10.6,
+        "fat_g": 17.6,
+        "carbohydrate_g": 65.0
+      }
+    ],
+    "food-v2-112": [
+      {
+        "basis": "per_menu_serving",
+        "canonical_id": "food-v2-112",
+        "dish": "カツカレー",
+        "size": "並盛",
+        "provider": "Nakau",
+        "source_date": "2022-04-21",
+        "source": "https://www.nakau.co.jp/jp/pdf/n_eiyouseibun_list.pdf",
+        "serving_mass_g": null,
+        "energy_kcal": 993,
+        "protein_g": 30.6,
+        "fat_g": 39.8,
+        "carbohydrate_g": 122.9
+      }
+    ],
+    "food-v2-058": [
+      {
+        "basis": "per_package",
+        "canonical_id": "food-v2-058",
+        "dish": "ごっつ旨い大粒たこ焼",
+        "size": "1 package, 6 pieces including sauces and toppings",
+        "provider": "TableMark",
+        "source_date": null,
+        "source": "https://www.tablemark.co.jp/products/frozen/snack/detail/7117352.html",
+        "product_gtin": "4901520142842",
+        "serving_mass_g": 197,
+        "mass_basis": "net packaged food; post-heating weight not published",
+        "energy_kcal": 314,
+        "protein_g": 10.6,
+        "fat_g": 12.0,
+        "carbohydrate_g": 40.8
+      }
+    ],
+    "food-v2-102": [
+      {
+        "basis": "per_menu_serving",
+        "canonical_id": "food-v2-102",
+        "dish": "Black Pepper Sirloin Steak",
+        "size": "1 serving, 5.9 oz",
+        "provider": "Panda Express (US)",
+        "source": "https://www.pandaexpress.com/nutritioninformation",
+        "source_date": null,
+        "serving_mass_g": 167.26,
+        "published_mass_oz": 5.9,
+        "energy_kcal": 200,
+        "protein_g": 17,
+        "fat_g": 8,
+        "carbohydrate_g": 15
+      }
+    ],
+    "food-v2-237": [
+      {
+        "basis": "per_menu_serving",
+        "canonical_id": "food-v2-237",
+        "dish": "Vegetable Spring Roll",
+        "size": "2 rolls, 3.5 oz",
+        "provider": "Panda Express (US)",
+        "source": "https://www.pandaexpress.com/nutritioninformation",
+        "source_date": null,
+        "serving_mass_g": 99.22,
+        "published_mass_oz": 3.5,
+        "energy_kcal": 240,
+        "protein_g": 4,
+        "fat_g": 14,
+        "carbohydrate_g": 24
+      }
+    ],
+    "food-v2-255": [
+      {
+        "basis": "per_sampled_serving",
+        "canonical_id": "food-v2-255",
+        "dish": "Nasi Kampung Goreng",
+        "size": "1 sampled hawker portion",
+        "provider": "Singapore hawker food study",
+        "source_date": "2021",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8304763/",
+        "source_table": 2,
+        "serving_mass_g": 405,
+        "source_per100g": {
+          "energy_kj": 798,
+          "protein_g": 7.1,
+          "fat_g": 7.1,
+          "carbohydrate_g": 24.6
+        },
+        "energy_kcal": 772.44,
+        "protein_g": 28.75,
+        "fat_g": 28.75,
+        "carbohydrate_g": 99.63
+      }
+    ],
+    "food-v2-262": [
+      {
+        "basis": "per_sampled_serving",
+        "canonical_id": "food-v2-262",
+        "dish": "Economical Mee Goreng",
+        "size": "1 sampled hawker portion",
+        "provider": "Singapore hawker food study",
+        "source_date": "2021",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8304763/",
+        "source_table": 1,
+        "serving_mass_g": 350,
+        "source_per100g": {
+          "energy_kj": 677,
+          "protein_g": 3.5,
+          "fat_g": 2.2,
+          "carbohydrate_g": 31.9
+        },
+        "energy_kcal": 566.32,
+        "protein_g": 12.25,
+        "fat_g": 7.7,
+        "carbohydrate_g": 111.65
+      }
+    ],
+    "food-v2-260": [
+      {
+        "basis": "per_sampled_serving",
+        "canonical_id": "food-v2-260",
+        "dish": "Laska",
+        "size": "1 sampled hawker portion",
+        "provider": "Singapore hawker food study",
+        "source_date": "2021",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8304763/",
+        "source_table": 1,
+        "serving_mass_g": 577,
+        "source_per100g": {
+          "energy_kj": 639,
+          "protein_g": 8.0,
+          "fat_g": 5.3,
+          "carbohydrate_g": 18.3
+        },
+        "energy_kcal": 881.22,
+        "protein_g": 46.16,
+        "fat_g": 30.58,
+        "carbohydrate_g": 105.59
+      }
+    ]
+  }
+}

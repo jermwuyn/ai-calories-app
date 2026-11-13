@@ -1,5 +1,9 @@
 
 import sqlite3
+import json
+from backend.config import ROOT
+
+PROFILE_TYPES = json.loads((ROOT / "backend/database/profile_types.json").read_text(encoding="utf-8"))
 from contextlib import closing
 from pathlib import Path
 
@@ -7,11 +11,7 @@ from backend.services.nutrition_calculator import (
     calculate_nutrition,
 )
 
-DB_PATH = (
-    Path(__file__).resolve().parents[1]
-    / "database"
-    / "nutrition.db"
-)
+from backend.config import DB_PATH
 
 
 def get_recipe(recipe_id: int, db_path=DB_PATH):
@@ -68,6 +68,9 @@ def get_recipe(recipe_id: int, db_path=DB_PATH):
     ]
 
     return {
+        "profile_type": (PROFILE_TYPES.get(str(recipe[0]), {}).get("profile_type")
+                         if PROFILE_TYPES.get(str(recipe[0]), {}).get("name") == recipe[3]
+                         and PROFILE_TYPES.get(str(recipe[0]), {}).get("food_id") == recipe[1] else "unreviewed"),
         "recipe_id": recipe[0],
         "food_id": recipe[1],
         "food_name": recipe[2],
@@ -172,5 +175,6 @@ def calculate_recipe_custom(
         "food_name": recipe["food_name"],
         "recipe_name": recipe["recipe_name"],
         "is_customized": True,
+        "profile_type": recipe["profile_type"],
         "nutrition": nutrition,
     }

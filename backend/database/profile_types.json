@@ -1,0 +1,387 @@
+{
+  "1": {
+    "food_id": 1,
+    "name": "Cơm tấm sườn trứng - test",
+    "profile_type": "ingredient_recipe"
+  },
+  "2": {
+    "food_id": 2,
+    "name": "Cơm trắng hạt vừa đã nấu, một cup",
+    "profile_type": "as_served_reference"
+  },
+  "3": {
+    "food_id": 3,
+    "name": "Trứng gà chiên, một quả cỡ lớn",
+    "profile_type": "as_served_reference"
+  },
+  "4": {
+    "food_id": 4,
+    "name": "Bún gạo đã nấu, một cup",
+    "profile_type": "as_served_reference"
+  },
+  "5": {
+    "food_id": 5,
+    "name": "Bread, white, commercially prepared, toasted (1 slice)",
+    "profile_type": "as_served_reference"
+  },
+  "6": {
+    "food_id": 6,
+    "name": "Bread, raisin, enriched (1 slice)",
+    "profile_type": "as_served_reference"
+  },
+  "7": {
+    "food_id": 7,
+    "name": "Snacks, popcorn, air-popped (Unsalted) (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "8": {
+    "food_id": 8,
+    "name": "Rice pilaf (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "9": {
+    "food_id": 9,
+    "name": "Beef curry (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "10": {
+    "food_id": 10,
+    "name": "Sushi, NFS (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "11": {
+    "food_id": 11,
+    "name": "Rice, fried, NFS (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "12": {
+    "food_id": 12,
+    "name": "Bibimbap, Korean (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "13": {
+    "food_id": 13,
+    "name": "Croissant (1 small croissant)",
+    "profile_type": "as_served_reference"
+  },
+  "14": {
+    "food_id": 14,
+    "name": "Hamburger, NFS (1 hamburger)",
+    "profile_type": "as_served_reference"
+  },
+  "15": {
+    "food_id": 15,
+    "name": "Noodles, japanese, soba, cooked (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "16": {
+    "food_id": 16,
+    "name": "Soup, ramen noodles, water added (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "17": {
+    "food_id": 17,
+    "name": "Vegetable tempura (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "18": {
+    "food_id": 18,
+    "name": "Pork sausage (1 patty)",
+    "profile_type": "as_served_reference"
+  },
+  "19": {
+    "food_id": 19,
+    "name": "Fish, cod, fried (1 small/regular fillet)",
+    "profile_type": "as_served_reference"
+  },
+  "20": {
+    "food_id": 20,
+    "name": "Fish, salmon, grilled (1 small/regular fillet)",
+    "profile_type": "as_served_reference"
+  },
+  "21": {
+    "food_id": 21,
+    "name": "Restaurant, Chinese, sweet and sour pork (3 pieces)",
+    "profile_type": "as_served_reference"
+  },
+  "22": {
+    "food_id": 22,
+    "name": "Stuffed cabbage rolls with beef and rice (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "23": {
+    "food_id": 23,
+    "name": "Natto (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "24": {
+    "food_id": 24,
+    "name": "Chicken, roasting, meat and skin, cooked, roasted (3 oz)",
+    "profile_type": "as_served_reference"
+  },
+  "25": {
+    "food_id": 25,
+    "name": "OLIVE GARDEN, spaghetti with meat sauce (1 serving)",
+    "profile_type": "as_served_reference"
+  },
+  "26": {
+    "food_id": 26,
+    "name": "Shrimp, fried (1 prawn)",
+    "profile_type": "as_served_reference"
+  },
+  "27": {
+    "food_id": 27,
+    "name": "Potato salad with egg (0.5 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "28": {
+    "food_id": 28,
+    "name": "Macaroni or pasta salad with egg (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "29": {
+    "food_id": 29,
+    "name": "APPLEBEE'S, french fries (1 serving)",
+    "profile_type": "as_served_reference"
+  },
+  "30": {
+    "food_id": 30,
+    "name": "Paella with seafood (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "31": {
+    "food_id": 31,
+    "name": "Tiramisu (1 piece)",
+    "profile_type": "as_served_reference"
+  },
+  "32": {
+    "food_id": 32,
+    "name": "Cake, strawberry shortcake (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "33": {
+    "food_id": 33,
+    "name": "Soup, minestrone (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "34": {
+    "food_id": 34,
+    "name": "Chicken nuggets, NFS (1 nugget)",
+    "profile_type": "as_served_reference"
+  },
+  "35": {
+    "food_id": 35,
+    "name": "Bagel (1 regular)",
+    "profile_type": "as_served_reference"
+  },
+  "36": {
+    "food_id": 36,
+    "name": "Scone (1 regular)",
+    "profile_type": "as_served_reference"
+  },
+  "37": {
+    "food_id": 37,
+    "name": "Tortilla, corn (1 medium)",
+    "profile_type": "as_served_reference"
+  },
+  "38": {
+    "food_id": 38,
+    "name": "Nachos, NFS (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "39": {
+    "food_id": 39,
+    "name": "Meat loaf, NS as to type of meat (1 large slice)",
+    "profile_type": "as_served_reference"
+  },
+  "40": {
+    "food_id": 40,
+    "name": "Egg, whole, cooked, scrambled (1 large)",
+    "profile_type": "as_served_reference"
+  },
+  "41": {
+    "food_id": 41,
+    "name": "Lasagna with meat (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "42": {
+    "food_id": 42,
+    "name": "Oatmeal, NFS (1 cup, cooked)",
+    "profile_type": "as_served_reference"
+  },
+  "43": {
+    "food_id": 43,
+    "name": "Pie, apple (1 regular slice)",
+    "profile_type": "as_served_reference"
+  },
+  "44": {
+    "food_id": 44,
+    "name": "Yogurt parfait, with fruit (1 McDonald's parfait)",
+    "profile_type": "as_served_reference"
+  },
+  "45": {
+    "food_id": 45,
+    "name": "Duck, roasted, skin eaten (1 cup, cooked, diced)",
+    "profile_type": "as_served_reference"
+  },
+  "46": {
+    "food_id": 46,
+    "name": "Chicken wing, fried, coated, from raw (1 wing, any size)",
+    "profile_type": "as_served_reference"
+  },
+  "47": {
+    "food_id": 47,
+    "name": "Soup, wonton, Chinese restaurant (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "48": {
+    "food_id": 48,
+    "name": "Shrimp, cake or patty (1 cake or patty)",
+    "profile_type": "as_served_reference"
+  },
+  "49": {
+    "food_id": 49,
+    "name": "Haupia (1 piece)",
+    "profile_type": "as_served_reference"
+  },
+  "50": {
+    "food_id": 50,
+    "name": "Churros (1 regular)",
+    "profile_type": "as_served_reference"
+  },
+  "51": {
+    "food_id": 51,
+    "name": "Jambalaya with meat and rice (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "52": {
+    "food_id": 52,
+    "name": "Soup, hot and sour, Chinese restaurant (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "53": {
+    "food_id": 53,
+    "name": "Roll with meat and/or shrimp, vegetables and rice paper, not fried (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "54": {
+    "food_id": 54,
+    "name": "Soup, pho, with meat (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "55": {
+    "food_id": 55,
+    "name": "Lau lau (1 lau lau)",
+    "profile_type": "as_served_reference"
+  },
+  "56": {
+    "food_id": 56,
+    "name": "Restaurant, Chinese, chicken chow mein (1 order)",
+    "profile_type": "as_served_reference"
+  },
+  "57": {
+    "food_id": 57,
+    "name": "Restaurant, Chinese, kung pao chicken (1 order)",
+    "profile_type": "as_served_reference"
+  },
+  "58": {
+    "food_id": 58,
+    "name": "Fish, salmon, baked or broiled (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "59": {
+    "food_id": 59,
+    "name": "Soup, wonton, Chinese restaurant (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "60": {
+    "food_id": 60,
+    "name": "Rice, white, cooked, glutinous (1 cup, cooked)",
+    "profile_type": "as_served_reference"
+  },
+  "61": {
+    "food_id": 61,
+    "name": "Rolls, french (1 roll)",
+    "profile_type": "as_served_reference"
+  },
+  "62": {
+    "food_id": 62,
+    "name": "PIZZA HUT 12\" Cheese Pizza, Pan Crust (1 slice)",
+    "profile_type": "as_served_reference"
+  },
+  "63": {
+    "food_id": 63,
+    "name": "Pancakes, plain (1 small pancake)",
+    "profile_type": "as_served_reference"
+  },
+  "64": {
+    "food_id": 64,
+    "name": "Waffle, plain (1 medium waffle)",
+    "profile_type": "as_served_reference"
+  },
+  "65": {
+    "food_id": 65,
+    "name": "French toast, plain (1 slice, any size)",
+    "profile_type": "as_served_reference"
+  },
+  "66": {
+    "food_id": 66,
+    "name": "Caesar salad, with romaine, no dressing (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "67": {
+    "food_id": 67,
+    "name": "Muffin, plain (1 medium)",
+    "profile_type": "as_served_reference"
+  },
+  "68": {
+    "food_id": 68,
+    "name": "Cream puff, eclair, custard or cream filled, not iced (1 cream puff (3-1/2\" x 2\"))",
+    "profile_type": "as_served_reference"
+  },
+  "69": {
+    "food_id": 69,
+    "name": "Doughnut, cake type, plain (1 doughnut)",
+    "profile_type": "as_served_reference"
+  },
+  "70": {
+    "food_id": 70,
+    "name": "Sandwich, NFS (1 regular)",
+    "profile_type": "as_served_reference"
+  },
+  "71": {
+    "food_id": 71,
+    "name": "DENNY'S, spaghetti and meatballs (1 serving)",
+    "profile_type": "as_served_reference"
+  },
+  "72": {
+    "food_id": 72,
+    "name": "Stew, beef (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "73": {
+    "food_id": 73,
+    "name": "Chicken wing, fried, coated, from raw (1 wing, any size)",
+    "profile_type": "as_served_reference"
+  },
+  "74": {
+    "food_id": 74,
+    "name": "Beef, steak, chuck (1 regular)",
+    "profile_type": "as_served_reference"
+  },
+  "75": {
+    "food_id": 75,
+    "name": "Mixed salad greens, raw (1 cup)",
+    "profile_type": "as_served_reference"
+  },
+  "76": {
+    "food_id": 76,
+    "name": "Taco, NFS (1 small/regular)",
+    "profile_type": "as_served_reference"
+  },
+  "77": {
+    "food_id": 77,
+    "name": "Cookies, brownies, prepared from recipe (1 brownie (2\" square))",
+    "profile_type": "as_served_reference"
+  }
+}

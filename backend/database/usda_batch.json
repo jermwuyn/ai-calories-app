@@ -1,4 +1,3 @@
-
 [
   {
     "fdc_id": 168914,
@@ -28,48 +27,639 @@
     "expected_description": "Sauce, fish, ready-to-serve",
     "reviewed": true
   },
-
-{
-  "fdc_id": 170000,
-  "name_vi": "Hành tây sống",
-  "state": "raw",
-  "expected_description": "Onions, raw",
-  "reviewed": true
-},
-{
-  "fdc_id": 169230,
-  "name_vi": "Tỏi tươi",
-  "state": "raw",
-  "expected_description": "Garlic, raw",
-  "reviewed": true
-},
-{
-  "fdc_id": 170106,
-  "name_vi": "Ớt đỏ tươi",
-  "state": "raw",
-  "expected_description": "Peppers, hot chili, red, raw",
-  "reviewed": true
-},
-{
-  "fdc_id": 172883,
-  "name_vi": "Nước dùng bò tự nấu (USDA)",
-  "state": "cooked_stock",
-  "expected_description": "Soup, stock, beef, home-prepared",
-  "reviewed": true
-},
-{
-  "fdc_id": 169997,
-  "name_vi": "Rau ngò rí tươi",
-  "state": "raw",
-  "expected_description": "Coriander (cilantro) leaves, raw",
-  "reviewed": true
-},
-{
-  "fdc_id": 168256,
-  "name_vi": "Thịt vai heo om (nạc và mỡ, phần ăn được)",
-  "state": "cooked_braised",
-  "expected_description": "Pork, fresh, shoulder, arm picnic, separable lean and fat, cooked, braised",
-  "reviewed": true
-}
-
+  {
+    "fdc_id": 170000,
+    "name_vi": "Hành tây sống",
+    "state": "raw",
+    "expected_description": "Onions, raw",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 169230,
+    "name_vi": "Tỏi tươi",
+    "state": "raw",
+    "expected_description": "Garlic, raw",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 170106,
+    "name_vi": "Ớt đỏ tươi",
+    "state": "raw",
+    "expected_description": "Peppers, hot chili, red, raw",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 172883,
+    "name_vi": "Nước dùng bò tự nấu (USDA)",
+    "state": "cooked_stock",
+    "expected_description": "Soup, stock, beef, home-prepared",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 169997,
+    "name_vi": "Rau ngò rí tươi",
+    "state": "raw",
+    "expected_description": "Coriander (cilantro) leaves, raw",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 168256,
+    "name_vi": "Thịt vai heo om (nạc và mỡ, phần ăn được)",
+    "state": "cooked_braised",
+    "expected_description": "Pork, fresh, shoulder, arm picnic, separable lean and fat, cooked, braised",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 168573,
+    "name_vi": "Sả tươi (USDA)",
+    "state": "raw",
+    "expected_description": "Lemon grass (citronella), raw",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 168290,
+    "name_vi": "Chân heo ninh (USDA pork feet, phần ăn được)",
+    "state": "cooked_simmered",
+    "expected_description": "Pork, fresh, variety meats and by-products, feet, cooked, simmered",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 168930,
+    "name_vi": "Cơm trắng (gạo hạt vừa, đã nấu)",
+    "state": "cooked",
+    "expected_description": "Rice, white, medium-grain, cooked, unenriched",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 173423,
+    "name_vi": "Trứng gà chiên (ốp la)",
+    "state": "cooked_fried",
+    "expected_description": "Egg, whole, cooked, fried",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 174925,
+    "name_vi": "Bread, white, commercially prepared, toasted",
+    "state": "toasted",
+    "expected_description": "Bread, white, commercially prepared, toasted",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 172680,
+    "name_vi": "Bread, raisin, enriched",
+    "state": "baked",
+    "expected_description": "Bread, raisin, enriched",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 170246,
+    "name_vi": "Snacks, popcorn, air-popped (Unsalted)",
+    "state": "air_popped_unsalted",
+    "expected_description": "Snacks, popcorn, air-popped (Unsalted)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2709077,
+    "name_vi": "Rice pilaf",
+    "state": "as_served",
+    "expected_description": "Rice pilaf",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2706388,
+    "name_vi": "Beef curry",
+    "state": "as_served",
+    "expected_description": "Beef curry",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2708959,
+    "name_vi": "Sushi, NFS",
+    "state": "as_served",
+    "expected_description": "Sushi, NFS",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2708952,
+    "name_vi": "Rice, fried, NFS",
+    "state": "as_served",
+    "expected_description": "Rice, fried, NFS",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2708950,
+    "name_vi": "Bibimbap, Korean",
+    "state": "as_served",
+    "expected_description": "Bibimbap, Korean",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2707678,
+    "name_vi": "Croissant",
+    "state": "as_served",
+    "expected_description": "Croissant",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2706920,
+    "name_vi": "Hamburger, NFS",
+    "state": "as_served",
+    "expected_description": "Hamburger, NFS",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 168907,
+    "name_vi": "Noodles, japanese, soba, cooked",
+    "state": "as_served",
+    "expected_description": "Noodles, japanese, soba, cooked",
+    "data_type": "SR Legacy",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2709152,
+    "name_vi": "Soup, ramen noodles, water added",
+    "state": "as_served",
+    "expected_description": "Soup, ramen noodles, water added",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2710065,
+    "name_vi": "Vegetable tempura",
+    "state": "as_served",
+    "expected_description": "Vegetable tempura",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2706191,
+    "name_vi": "Pork sausage",
+    "state": "as_served",
+    "expected_description": "Pork sausage",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2706244,
+    "name_vi": "Fish, cod, fried",
+    "state": "as_served",
+    "expected_description": "Fish, cod, fried",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2706287,
+    "name_vi": "Fish, salmon, grilled",
+    "state": "as_served",
+    "expected_description": "Fish, salmon, grilled",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 168082,
+    "name_vi": "Restaurant, Chinese, sweet and sour pork",
+    "state": "as_served",
+    "expected_description": "Restaurant, Chinese, sweet and sour pork",
+    "data_type": "SR Legacy",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2706620,
+    "name_vi": "Stuffed cabbage rolls with beef and rice",
+    "state": "as_served",
+    "expected_description": "Stuffed cabbage rolls with beef and rice",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 172443,
+    "name_vi": "Natto",
+    "state": "as_served",
+    "expected_description": "Natto",
+    "data_type": "SR Legacy",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 173635,
+    "name_vi": "Chicken, roasting, meat and skin, cooked, roasted",
+    "state": "as_served",
+    "expected_description": "Chicken, roasting, meat and skin, cooked, roasted",
+    "data_type": "SR Legacy",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 168085,
+    "name_vi": "OLIVE GARDEN, spaghetti with meat sauce",
+    "state": "as_served",
+    "expected_description": "OLIVE GARDEN, spaghetti with meat sauce",
+    "data_type": "SR Legacy",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2706364,
+    "name_vi": "Shrimp, fried",
+    "state": "as_served",
+    "expected_description": "Shrimp, fried",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 173343,
+    "name_vi": "Potato salad with egg",
+    "state": "as_served",
+    "expected_description": "Potato salad with egg",
+    "data_type": "SR Legacy",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2708941,
+    "name_vi": "Macaroni or pasta salad with egg",
+    "state": "as_served",
+    "expected_description": "Macaroni or pasta salad with egg",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 169009,
+    "name_vi": "APPLEBEE'S, french fries",
+    "state": "as_served",
+    "expected_description": "APPLEBEE'S, french fries",
+    "data_type": "SR Legacy",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2706711,
+    "name_vi": "Paella with seafood",
+    "state": "as_served",
+    "expected_description": "Paella with seafood",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2705702,
+    "name_vi": "Tiramisu",
+    "state": "as_served",
+    "expected_description": "Tiramisu",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2707896,
+    "name_vi": "Cake, strawberry shortcake",
+    "state": "as_served",
+    "expected_description": "Cake, strawberry shortcake",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2710114,
+    "name_vi": "Soup, minestrone",
+    "state": "as_served",
+    "expected_description": "Soup, minestrone",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2706092,
+    "name_vi": "Chicken nuggets, NFS",
+    "state": "as_served",
+    "expected_description": "Chicken nuggets, NFS",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2707684,
+    "name_vi": "Bagel",
+    "state": "as_served",
+    "expected_description": "Bagel",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2707808,
+    "name_vi": "Scone",
+    "state": "as_served",
+    "expected_description": "Scone",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2707823,
+    "name_vi": "Tortilla, corn",
+    "state": "as_served",
+    "expected_description": "Tortilla, corn",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2708576,
+    "name_vi": "Nachos, NFS",
+    "state": "as_served",
+    "expected_description": "Nachos, NFS",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2706579,
+    "name_vi": "Meat loaf, NS as to type of meat",
+    "state": "as_served",
+    "expected_description": "Meat loaf, NS as to type of meat",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 172187,
+    "name_vi": "Egg, whole, cooked, scrambled",
+    "state": "as_served",
+    "expected_description": "Egg, whole, cooked, scrambled",
+    "data_type": "SR Legacy",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2708750,
+    "name_vi": "Lasagna with meat",
+    "state": "as_served",
+    "expected_description": "Lasagna with meat",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2708380,
+    "name_vi": "Oatmeal, NFS",
+    "state": "as_served",
+    "expected_description": "Oatmeal, NFS",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2707995,
+    "name_vi": "Pie, apple",
+    "state": "as_served",
+    "expected_description": "Pie, apple",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2705450,
+    "name_vi": "Yogurt parfait, with fruit",
+    "state": "as_served",
+    "expected_description": "Yogurt parfait, with fruit",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2706139,
+    "name_vi": "Duck, roasted, skin eaten",
+    "state": "as_served",
+    "expected_description": "Duck, roasted, skin eaten",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2706065,
+    "name_vi": "Chicken wing, fried, coated, from raw",
+    "state": "as_served",
+    "expected_description": "Chicken wing, fried, coated, from raw",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 171821,
+    "name_vi": "Soup, wonton, Chinese restaurant",
+    "state": "as_served",
+    "expected_description": "Soup, wonton, Chinese restaurant",
+    "data_type": "SR Legacy",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2706565,
+    "name_vi": "Shrimp, cake or patty",
+    "state": "as_served",
+    "expected_description": "Shrimp, cake or patty",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2710316,
+    "name_vi": "Haupia",
+    "state": "as_served",
+    "expected_description": "Haupia",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2708070,
+    "name_vi": "Churros",
+    "state": "as_served",
+    "expected_description": "Churros",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2706727,
+    "name_vi": "Jambalaya with meat and rice",
+    "state": "as_served",
+    "expected_description": "Jambalaya with meat and rice",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 174808,
+    "name_vi": "Soup, hot and sour, Chinese restaurant",
+    "state": "as_served",
+    "expected_description": "Soup, hot and sour, Chinese restaurant",
+    "data_type": "SR Legacy",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2708704,
+    "name_vi": "Roll with meat and/or shrimp, vegetables and rice paper, not fried",
+    "state": "as_served",
+    "expected_description": "Roll with meat and/or shrimp, vegetables and rice paper, not fried",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2707124,
+    "name_vi": "Soup, pho, with meat",
+    "state": "as_served",
+    "expected_description": "Soup, pho, with meat",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2706873,
+    "name_vi": "Lau lau",
+    "state": "as_served",
+    "expected_description": "Lau lau",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 168083,
+    "name_vi": "Restaurant, Chinese, chicken chow mein",
+    "state": "as_served",
+    "expected_description": "Restaurant, Chinese, chicken chow mein",
+    "data_type": "SR Legacy",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 167676,
+    "name_vi": "Restaurant, Chinese, kung pao chicken",
+    "state": "as_served",
+    "expected_description": "Restaurant, Chinese, kung pao chicken",
+    "data_type": "SR Legacy",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2706286,
+    "name_vi": "Fish, salmon, baked or broiled",
+    "state": "as_served",
+    "expected_description": "Fish, salmon, baked or broiled",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2708422,
+    "name_vi": "Rice, white, cooked, glutinous",
+    "state": "as_served",
+    "expected_description": "Rice, white, cooked, glutinous",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 172795,
+    "name_vi": "Rolls, french",
+    "state": "as_served",
+    "expected_description": "Rolls, french",
+    "data_type": "SR Legacy",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 172041,
+    "name_vi": "PIZZA HUT 12\" Cheese Pizza, Pan Crust",
+    "state": "as_served",
+    "expected_description": "PIZZA HUT 12\" Cheese Pizza, Pan Crust",
+    "data_type": "SR Legacy",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2708304,
+    "name_vi": "Pancakes, plain",
+    "state": "as_served",
+    "expected_description": "Pancakes, plain",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2708325,
+    "name_vi": "Waffle, plain",
+    "state": "as_served",
+    "expected_description": "Waffle, plain",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2708335,
+    "name_vi": "French toast, plain",
+    "state": "as_served",
+    "expected_description": "French toast, plain",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2709591,
+    "name_vi": "Caesar salad, with romaine, no dressing",
+    "state": "as_served",
+    "expected_description": "Caesar salad, with romaine, no dressing",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2707841,
+    "name_vi": "Muffin, plain",
+    "state": "as_served",
+    "expected_description": "Muffin, plain",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2708030,
+    "name_vi": "Cream puff, eclair, custard or cream filled, not iced",
+    "state": "as_served",
+    "expected_description": "Cream puff, eclair, custard or cream filled, not iced",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2708063,
+    "name_vi": "Doughnut, cake type, plain",
+    "state": "as_served",
+    "expected_description": "Doughnut, cake type, plain",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2706880,
+    "name_vi": "Sandwich, NFS",
+    "state": "as_served",
+    "expected_description": "Sandwich, NFS",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 169845,
+    "name_vi": "DENNY'S, spaghetti and meatballs",
+    "state": "as_served",
+    "expected_description": "DENNY'S, spaghetti and meatballs",
+    "data_type": "SR Legacy",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2706592,
+    "name_vi": "Stew, beef",
+    "state": "as_served",
+    "expected_description": "Stew, beef",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2705825,
+    "name_vi": "Beef, steak, chuck",
+    "state": "as_served",
+    "expected_description": "Beef, steak, chuck",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2709792,
+    "name_vi": "Mixed salad greens, raw",
+    "state": "as_served",
+    "expected_description": "Mixed salad greens, raw",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 2708514,
+    "name_vi": "Taco, NFS",
+    "state": "as_served",
+    "expected_description": "Taco, NFS",
+    "data_type": "Survey (FNDDS)",
+    "reviewed": true
+  },
+  {
+    "fdc_id": 174949,
+    "name_vi": "Cookies, brownies, prepared from recipe",
+    "state": "as_served",
+    "expected_description": "Cookies, brownies, prepared from recipe",
+    "data_type": "SR Legacy",
+    "reviewed": true
+  }
 ]

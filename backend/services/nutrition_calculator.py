@@ -1,13 +1,10 @@
+from contextlib import closing
 
 import math
 import sqlite3
 from pathlib import Path
 
-DB_PATH = (
-    Path(__file__).resolve().parents[1]
-    / "database"
-    / "nutrition.db"
-)
+from backend.config import DB_PATH
 
 
 def calculate_nutrition(components, db_path=DB_PATH):
@@ -44,7 +41,7 @@ def calculate_nutrition(components, db_path=DB_PATH):
     if not portions:
         raise ValueError("Total ingredient weight must be positive")
 
-    with sqlite3.connect(db_path) as conn:
+    with closing(sqlite3.connect(db_path)) as conn:
         conn.execute("PRAGMA foreign_keys = ON")
 
         nutrients = conn.execute(

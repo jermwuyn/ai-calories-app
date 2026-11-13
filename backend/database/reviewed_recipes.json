@@ -1,0 +1,1446 @@
+[
+  {
+    "canonical_id": "food-v2-030",
+    "name": "Cơm trắng hạt vừa đã nấu, một cup",
+    "source": "https://fdc.nal.usda.gov/food-details/168930/measures",
+    "default_serving_g": 186,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "is_optional": false,
+        "fdc_id": 168930,
+        "grams": 186
+      }
+    ],
+    "model_mapping": {
+      "index": 30,
+      "name_en": "rice",
+      "name_vi": "Cơm trắng"
+    }
+  },
+  {
+    "canonical_id": "food-v2-097",
+    "name": "Trứng gà chiên, một quả cỡ lớn",
+    "source": "https://fdc.nal.usda.gov/food-details/173423/measures",
+    "default_serving_g": 46,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "is_optional": false,
+        "fdc_id": 173423,
+        "grams": 46
+      }
+    ],
+    "model_mapping": {
+      "index": 97,
+      "name_en": "egg sunny-side up",
+      "name_vi": "Trứng ốp la"
+    }
+  },
+  {
+    "canonical_id": "food-v2-138",
+    "name": "Bún gạo đã nấu, một cup",
+    "source": "https://fdc.nal.usda.gov/food-details/168914/measures",
+    "default_serving_g": 176,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "is_optional": false,
+        "fdc_id": 168914,
+        "grams": 176
+      }
+    ],
+    "model_mapping": {
+      "index": 138,
+      "name_en": "rice vermicelli",
+      "name_vi": "Bún gạo"
+    }
+  },
+  {
+    "canonical_id": "food-v2-041",
+    "name": "Bread, white, commercially prepared, toasted (1 slice)",
+    "source": "https://fdc.nal.usda.gov/food-details/174925/measures",
+    "default_serving_g": 22.0,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 174925,
+        "grams": 22.0,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 41,
+      "name_en": "toast",
+      "name_vi": "Bánh mì nướng"
+    }
+  },
+  {
+    "canonical_id": "food-v2-044",
+    "name": "Bread, raisin, enriched (1 slice)",
+    "source": "https://fdc.nal.usda.gov/food-details/172680/measures",
+    "default_serving_g": 26.0,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 172680,
+        "grams": 26.0,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 44,
+      "name_en": "raisin bread",
+      "name_vi": "Bánh mì nho khô"
+    }
+  },
+  {
+    "canonical_id": "food-v2-188",
+    "name": "Snacks, popcorn, air-popped (Unsalted) (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/170246/measures",
+    "default_serving_g": 8.0,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 170246,
+        "grams": 8.0,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 188,
+      "name_en": "popcorn",
+      "name_vi": "Bỏng ngô"
+    }
+  },
+  {
+    "canonical_id": "food-v2-032",
+    "name": "Rice pilaf (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/2709077/measures",
+    "default_serving_g": 206,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2709077,
+        "grams": 206,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 32,
+      "name_en": "pilaf",
+      "name_vi": "pilaf"
+    }
+  },
+  {
+    "canonical_id": "food-v2-035",
+    "name": "Beef curry (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/2706388/measures",
+    "default_serving_g": 240,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2706388,
+        "grams": 240,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 35,
+      "name_en": "beef curry",
+      "name_vi": "beef curry"
+    }
+  },
+  {
+    "canonical_id": "food-v2-036",
+    "name": "Sushi, NFS (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/2708959/measures",
+    "default_serving_g": 150,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2708959,
+        "grams": 150,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 36,
+      "name_en": "sushi",
+      "name_vi": "sushi"
+    }
+  },
+  {
+    "canonical_id": "food-v2-038",
+    "name": "Rice, fried, NFS (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/2708952/measures",
+    "default_serving_g": 198,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2708952,
+        "grams": 198,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 38,
+      "name_en": "fried rice",
+      "name_vi": "fried rice"
+    }
+  },
+  {
+    "canonical_id": "food-v2-040",
+    "name": "Bibimbap, Korean (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/2708950/measures",
+    "default_serving_g": 162,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2708950,
+        "grams": 162,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 40,
+      "name_en": "bibimbap",
+      "name_vi": "bibimbap"
+    }
+  },
+  {
+    "canonical_id": "food-v2-042",
+    "name": "Croissant (1 small croissant)",
+    "source": "https://fdc.nal.usda.gov/food-details/2707678/measures",
+    "default_serving_g": 42,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2707678,
+        "grams": 42,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 42,
+      "name_en": "croissant",
+      "name_vi": "croissant"
+    }
+  },
+  {
+    "canonical_id": "food-v2-046",
+    "name": "Hamburger, NFS (1 hamburger)",
+    "source": "https://fdc.nal.usda.gov/food-details/2706920/measures",
+    "default_serving_g": 145,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2706920,
+        "grams": 145,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 46,
+      "name_en": "hamburger",
+      "name_vi": "hamburger"
+    }
+  },
+  {
+    "canonical_id": "food-v2-051",
+    "name": "Noodles, japanese, soba, cooked (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/168907/measures",
+    "default_serving_g": 114.0,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 168907,
+        "grams": 114.0,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 51,
+      "name_en": "soba noodle",
+      "name_vi": "soba noodle"
+    }
+  },
+  {
+    "canonical_id": "food-v2-052",
+    "name": "Soup, ramen noodles, water added (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/2709152/measures",
+    "default_serving_g": 245,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2709152,
+        "grams": 245,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 52,
+      "name_en": "ramen noodle",
+      "name_vi": "ramen noodle"
+    }
+  },
+  {
+    "canonical_id": "food-v2-064",
+    "name": "Vegetable tempura (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/2710065/measures",
+    "default_serving_g": 63,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2710065,
+        "grams": 63,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 64,
+      "name_en": "vegetable tempura",
+      "name_vi": "vegetable tempura"
+    }
+  },
+  {
+    "canonical_id": "food-v2-067",
+    "name": "Pork sausage (1 patty)",
+    "source": "https://fdc.nal.usda.gov/food-details/2706191/measures",
+    "default_serving_g": 35,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2706191,
+        "grams": 35,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 67,
+      "name_en": "sausage",
+      "name_vi": "sausage"
+    }
+  },
+  {
+    "canonical_id": "food-v2-074",
+    "name": "Fish, cod, fried (1 small/regular fillet)",
+    "source": "https://fdc.nal.usda.gov/food-details/2706244/measures",
+    "default_serving_g": 140,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2706244,
+        "grams": 140,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 74,
+      "name_en": "fried fish",
+      "name_vi": "fried fish"
+    }
+  },
+  {
+    "canonical_id": "food-v2-075",
+    "name": "Fish, salmon, grilled (1 small/regular fillet)",
+    "source": "https://fdc.nal.usda.gov/food-details/2706287/measures",
+    "default_serving_g": 140,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2706287,
+        "grams": 140,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 75,
+      "name_en": "grilled salmon",
+      "name_vi": "grilled salmon"
+    }
+  },
+  {
+    "canonical_id": "food-v2-080",
+    "name": "Restaurant, Chinese, sweet and sour pork (3 pieces)",
+    "source": "https://fdc.nal.usda.gov/food-details/168082/measures",
+    "default_serving_g": 42.0,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 168082,
+        "grams": 42.0,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 80,
+      "name_en": "sweet and sour pork",
+      "name_vi": "sweet and sour pork"
+    }
+  },
+  {
+    "canonical_id": "food-v2-095",
+    "name": "Stuffed cabbage rolls with beef and rice (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/2706620/measures",
+    "default_serving_g": 162,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2706620,
+        "grams": 162,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 95,
+      "name_en": "cabbage roll",
+      "name_vi": "cabbage roll"
+    }
+  },
+  {
+    "canonical_id": "food-v2-098",
+    "name": "Natto (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/172443/measures",
+    "default_serving_g": 175.0,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 172443,
+        "grams": 175.0,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 98,
+      "name_en": "natto",
+      "name_vi": "natto"
+    }
+  },
+  {
+    "canonical_id": "food-v2-109",
+    "name": "Chicken, roasting, meat and skin, cooked, roasted (3 oz)",
+    "source": "https://fdc.nal.usda.gov/food-details/173635/measures",
+    "default_serving_g": 85.0,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 173635,
+        "grams": 85.0,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 109,
+      "name_en": "roast chicken",
+      "name_vi": "roast chicken"
+    }
+  },
+  {
+    "canonical_id": "food-v2-113",
+    "name": "OLIVE GARDEN, spaghetti with meat sauce (1 serving)",
+    "source": "https://fdc.nal.usda.gov/food-details/168085/measures",
+    "default_serving_g": 525.0,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 168085,
+        "grams": 525.0,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 113,
+      "name_en": "spaghetti meat sauce",
+      "name_vi": "spaghetti meat sauce"
+    }
+  },
+  {
+    "canonical_id": "food-v2-114",
+    "name": "Shrimp, fried (1 prawn)",
+    "source": "https://fdc.nal.usda.gov/food-details/2706364/measures",
+    "default_serving_g": 20,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2706364,
+        "grams": 20,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 114,
+      "name_en": "fried shrimp",
+      "name_vi": "fried shrimp"
+    }
+  },
+  {
+    "canonical_id": "food-v2-115",
+    "name": "Potato salad with egg (0.5 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/173343/measures",
+    "default_serving_g": 125.0,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 173343,
+        "grams": 125.0,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 115,
+      "name_en": "potato salad",
+      "name_vi": "potato salad"
+    }
+  },
+  {
+    "canonical_id": "food-v2-117",
+    "name": "Macaroni or pasta salad with egg (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/2708941/measures",
+    "default_serving_g": 204,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2708941,
+        "grams": 204,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 117,
+      "name_en": "macaroni salad",
+      "name_vi": "macaroni salad"
+    }
+  },
+  {
+    "canonical_id": "food-v2-127",
+    "name": "APPLEBEE'S, french fries (1 serving)",
+    "source": "https://fdc.nal.usda.gov/food-details/169009/measures",
+    "default_serving_g": 164.0,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 169009,
+        "grams": 164.0,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 127,
+      "name_en": "french fries",
+      "name_vi": "french fries"
+    }
+  },
+  {
+    "canonical_id": "food-v2-139",
+    "name": "Paella with seafood (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/2706711/measures",
+    "default_serving_g": 240,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2706711,
+        "grams": 240,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 139,
+      "name_en": "paella",
+      "name_vi": "paella"
+    }
+  },
+  {
+    "canonical_id": "food-v2-146",
+    "name": "Tiramisu (1 piece)",
+    "source": "https://fdc.nal.usda.gov/food-details/2705702/measures",
+    "default_serving_g": 175,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2705702,
+        "grams": 175,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 146,
+      "name_en": "tiramisu",
+      "name_vi": "tiramisu"
+    }
+  },
+  {
+    "canonical_id": "food-v2-149",
+    "name": "Cake, strawberry shortcake (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/2707896/measures",
+    "default_serving_g": 150,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2707896,
+        "grams": 150,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 149,
+      "name_en": "shortcake",
+      "name_vi": "shortcake"
+    }
+  },
+  {
+    "canonical_id": "food-v2-157",
+    "name": "Soup, minestrone (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/2710114/measures",
+    "default_serving_g": 245,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2710114,
+        "grams": 245,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 157,
+      "name_en": "minestrone",
+      "name_vi": "minestrone"
+    }
+  },
+  {
+    "canonical_id": "food-v2-159",
+    "name": "Chicken nuggets, NFS (1 nugget)",
+    "source": "https://fdc.nal.usda.gov/food-details/2706092/measures",
+    "default_serving_g": 16,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2706092,
+        "grams": 16,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 159,
+      "name_en": "chicken nugget",
+      "name_vi": "chicken nugget"
+    }
+  },
+  {
+    "canonical_id": "food-v2-174",
+    "name": "Bagel (1 regular)",
+    "source": "https://fdc.nal.usda.gov/food-details/2707684/measures",
+    "default_serving_g": 105,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2707684,
+        "grams": 105,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 174,
+      "name_en": "bagel",
+      "name_vi": "bagel"
+    }
+  },
+  {
+    "canonical_id": "food-v2-175",
+    "name": "Scone (1 regular)",
+    "source": "https://fdc.nal.usda.gov/food-details/2707808/measures",
+    "default_serving_g": 70,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2707808,
+        "grams": 70,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 175,
+      "name_en": "scone",
+      "name_vi": "scone"
+    }
+  },
+  {
+    "canonical_id": "food-v2-176",
+    "name": "Tortilla, corn (1 medium)",
+    "source": "https://fdc.nal.usda.gov/food-details/2707823/measures",
+    "default_serving_g": 28,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2707823,
+        "grams": 28,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 176,
+      "name_en": "tortilla",
+      "name_vi": "tortilla"
+    }
+  },
+  {
+    "canonical_id": "food-v2-178",
+    "name": "Nachos, NFS (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/2708576/measures",
+    "default_serving_g": 135,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2708576,
+        "grams": 135,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 178,
+      "name_en": "nachos",
+      "name_vi": "nachos"
+    }
+  },
+  {
+    "canonical_id": "food-v2-179",
+    "name": "Meat loaf, NS as to type of meat (1 large slice)",
+    "source": "https://fdc.nal.usda.gov/food-details/2706579/measures",
+    "default_serving_g": 144,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2706579,
+        "grams": 144,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 179,
+      "name_en": "meat loaf",
+      "name_vi": "meat loaf"
+    }
+  },
+  {
+    "canonical_id": "food-v2-180",
+    "name": "Egg, whole, cooked, scrambled (1 large)",
+    "source": "https://fdc.nal.usda.gov/food-details/172187/measures",
+    "default_serving_g": 61.0,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 172187,
+        "grams": 61.0,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 180,
+      "name_en": "scrambled egg",
+      "name_vi": "scrambled egg"
+    }
+  },
+  {
+    "canonical_id": "food-v2-182",
+    "name": "Lasagna with meat (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/2708750/measures",
+    "default_serving_g": 250,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2708750,
+        "grams": 250,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 182,
+      "name_en": "lasagna",
+      "name_vi": "lasagna"
+    }
+  },
+  {
+    "canonical_id": "food-v2-184",
+    "name": "Oatmeal, NFS (1 cup, cooked)",
+    "source": "https://fdc.nal.usda.gov/food-details/2708380/measures",
+    "default_serving_g": 240,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2708380,
+        "grams": 240,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 184,
+      "name_en": "oatmeal",
+      "name_vi": "oatmeal"
+    }
+  },
+  {
+    "canonical_id": "food-v2-191",
+    "name": "Pie, apple (1 regular slice)",
+    "source": "https://fdc.nal.usda.gov/food-details/2707995/measures",
+    "default_serving_g": 150,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2707995,
+        "grams": 150,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 191,
+      "name_en": "apple pie",
+      "name_vi": "apple pie"
+    }
+  },
+  {
+    "canonical_id": "food-v2-192",
+    "name": "Yogurt parfait, with fruit (1 McDonald's parfait)",
+    "source": "https://fdc.nal.usda.gov/food-details/2705450/measures",
+    "default_serving_g": 150,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2705450,
+        "grams": 150,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 192,
+      "name_en": "parfait",
+      "name_vi": "parfait"
+    }
+  },
+  {
+    "canonical_id": "food-v2-196",
+    "name": "Duck, roasted, skin eaten (1 cup, cooked, diced)",
+    "source": "https://fdc.nal.usda.gov/food-details/2706139/measures",
+    "default_serving_g": 140,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2706139,
+        "grams": 140,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 196,
+      "name_en": "roast duck",
+      "name_vi": "roast duck"
+    }
+  },
+  {
+    "canonical_id": "food-v2-226",
+    "name": "Chicken wing, fried, coated, from raw (1 wing, any size)",
+    "source": "https://fdc.nal.usda.gov/food-details/2706065/measures",
+    "default_serving_g": 55,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2706065,
+        "grams": 55,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 226,
+      "name_en": "Deep Fried Chicken Wing",
+      "name_vi": "Deep Fried Chicken Wing"
+    }
+  },
+  {
+    "canonical_id": "food-v2-230",
+    "name": "Soup, wonton, Chinese restaurant (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/171821/measures",
+    "default_serving_g": 223.0,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 171821,
+        "grams": 223.0,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 230,
+      "name_en": "Wonton soup",
+      "name_vi": "Wonton soup"
+    }
+  },
+  {
+    "canonical_id": "food-v2-239",
+    "name": "Shrimp, cake or patty (1 cake or patty)",
+    "source": "https://fdc.nal.usda.gov/food-details/2706565/measures",
+    "default_serving_g": 85,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2706565,
+        "grams": 85,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 237,
+      "name_en": "Shrimp patties",
+      "name_vi": "Shrimp patties"
+    }
+  },
+  {
+    "canonical_id": "food-v2-245",
+    "name": "Haupia (1 piece)",
+    "source": "https://fdc.nal.usda.gov/food-details/2710316/measures",
+    "default_serving_g": 23,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2710316,
+        "grams": 23,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 242,
+      "name_en": "haupia",
+      "name_vi": "haupia"
+    }
+  },
+  {
+    "canonical_id": "food-v2-253",
+    "name": "Churros (1 regular)",
+    "source": "https://fdc.nal.usda.gov/food-details/2708070/measures",
+    "default_serving_g": 45,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2708070,
+        "grams": 45,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 250,
+      "name_en": "churro",
+      "name_vi": "churro"
+    }
+  },
+  {
+    "canonical_id": "food-v2-254",
+    "name": "Jambalaya with meat and rice (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/2706727/measures",
+    "default_serving_g": 244,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2706727,
+        "grams": 244,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 251,
+      "name_en": "jambalaya",
+      "name_vi": "jambalaya"
+    }
+  },
+  {
+    "canonical_id": "food-v2-284",
+    "name": "Soup, hot and sour, Chinese restaurant (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/174808/measures",
+    "default_serving_g": 233.0,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 174808,
+        "grams": 233.0,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 281,
+      "name_en": "hot & sour soup",
+      "name_vi": "hot & sour soup"
+    }
+  },
+  {
+    "canonical_id": "food-v2-024",
+    "name": "Roll with meat and/or shrimp, vegetables and rice paper, not fried (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/2708704/measures",
+    "default_serving_g": 83,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2708704,
+        "grams": 83,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 24,
+      "name_en": null,
+      "name_vi": "Goi cuon"
+    }
+  },
+  {
+    "canonical_id": "food-v2-028",
+    "name": "Soup, pho, with meat (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/2707124/measures",
+    "default_serving_g": 245,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2707124,
+        "grams": 245,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 28,
+      "name_en": "pho",
+      "name_vi": "Pho"
+    }
+  },
+  {
+    "canonical_id": "food-v2-247",
+    "name": "Lau lau (1 lau lau)",
+    "source": "https://fdc.nal.usda.gov/food-details/2706873/measures",
+    "default_serving_g": 214,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2706873,
+        "grams": 214,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 244,
+      "name_en": "laulau",
+      "name_vi": "laulau"
+    }
+  },
+  {
+    "canonical_id": "food-v2-270",
+    "name": "Restaurant, Chinese, chicken chow mein (1 order)",
+    "source": "https://fdc.nal.usda.gov/food-details/168083/measures",
+    "default_serving_g": 604.0,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 168083,
+        "grams": 604.0,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 267,
+      "name_en": "chow mein",
+      "name_vi": "chow mein"
+    }
+  },
+  {
+    "canonical_id": "food-v2-272",
+    "name": "Restaurant, Chinese, kung pao chicken (1 order)",
+    "source": "https://fdc.nal.usda.gov/food-details/167676/measures",
+    "default_serving_g": 604.0,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 167676,
+        "grams": 604.0,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 269,
+      "name_en": "kung pao chicken",
+      "name_vi": "kung pao chicken"
+    }
+  },
+  {
+    "canonical_id": "food-v2-278",
+    "name": "Fish, salmon, baked or broiled (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/2706286/measures",
+    "default_serving_g": 135,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2706286,
+        "grams": 135,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 275,
+      "name_en": "baked salmon",
+      "name_vi": "baked salmon"
+    }
+  },
+  {
+    "canonical_id": "food-v2-300",
+    "name": "Soup, wonton, Chinese restaurant (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/171821/measures",
+    "default_serving_g": 223.0,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 171821,
+        "grams": 223.0,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 297,
+      "name_en": null,
+      "name_vi": "hoanh-thanh-nuoc"
+    }
+  },
+  {
+    "canonical_id": "food-v2-316",
+    "name": "Rice, white, cooked, glutinous (1 cup, cooked)",
+    "source": "https://fdc.nal.usda.gov/food-details/2708422/measures",
+    "default_serving_g": 174,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2708422,
+        "grams": 174,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 309,
+      "name_en": "Sticky Rice",
+      "name_vi": "Sticky Rice"
+    }
+  },
+  {
+    "canonical_id": "food-v2-043",
+    "name": "Rolls, french (1 roll)",
+    "source": "https://fdc.nal.usda.gov/food-details/172795/measures",
+    "default_serving_g": 38.0,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 172795,
+        "grams": 38.0,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 43,
+      "name_en": "roll bread",
+      "name_vi": "roll bread"
+    }
+  },
+  {
+    "canonical_id": "food-v2-047",
+    "name": "PIZZA HUT 12\" Cheese Pizza, Pan Crust (1 slice)",
+    "source": "https://fdc.nal.usda.gov/food-details/172041/measures",
+    "default_serving_g": 100.0,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 172041,
+        "grams": 100.0,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 47,
+      "name_en": "pizza",
+      "name_vi": "pizza"
+    }
+  },
+  {
+    "canonical_id": "food-v2-143",
+    "name": "Pancakes, plain (1 small pancake)",
+    "source": "https://fdc.nal.usda.gov/food-details/2708304/measures",
+    "default_serving_g": 20,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2708304,
+        "grams": 20,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 143,
+      "name_en": "pancake",
+      "name_vi": "pancake"
+    }
+  },
+  {
+    "canonical_id": "food-v2-147",
+    "name": "Waffle, plain (1 medium waffle)",
+    "source": "https://fdc.nal.usda.gov/food-details/2708325/measures",
+    "default_serving_g": 75,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2708325,
+        "grams": 75,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 147,
+      "name_en": "waffle",
+      "name_vi": "waffle"
+    }
+  },
+  {
+    "canonical_id": "food-v2-155",
+    "name": "French toast, plain (1 slice, any size)",
+    "source": "https://fdc.nal.usda.gov/food-details/2708335/measures",
+    "default_serving_g": 65,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2708335,
+        "grams": 65,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 155,
+      "name_en": "french toast",
+      "name_vi": "french toast"
+    }
+  },
+  {
+    "canonical_id": "food-v2-183",
+    "name": "Caesar salad, with romaine, no dressing (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/2709591/measures",
+    "default_serving_g": 79,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2709591,
+        "grams": 79,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 183,
+      "name_en": "Caesar salad",
+      "name_vi": "Caesar salad"
+    }
+  },
+  {
+    "canonical_id": "food-v2-187",
+    "name": "Muffin, plain (1 medium)",
+    "source": "https://fdc.nal.usda.gov/food-details/2707841/measures",
+    "default_serving_g": 130,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2707841,
+        "grams": 130,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 187,
+      "name_en": "muffin",
+      "name_vi": "muffin"
+    }
+  },
+  {
+    "canonical_id": "food-v2-189",
+    "name": "Cream puff, eclair, custard or cream filled, not iced (1 cream puff (3-1/2\" x 2\"))",
+    "source": "https://fdc.nal.usda.gov/food-details/2708030/measures",
+    "default_serving_g": 100,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2708030,
+        "grams": 100,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 189,
+      "name_en": "cream puff",
+      "name_vi": "cream puff"
+    }
+  },
+  {
+    "canonical_id": "food-v2-190",
+    "name": "Doughnut, cake type, plain (1 doughnut)",
+    "source": "https://fdc.nal.usda.gov/food-details/2708063/measures",
+    "default_serving_g": 60,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2708063,
+        "grams": 60,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 190,
+      "name_en": "doughnut",
+      "name_vi": "doughnut"
+    }
+  },
+  {
+    "canonical_id": "food-v2-048",
+    "name": "Sandwich, NFS (1 regular)",
+    "source": "https://fdc.nal.usda.gov/food-details/2706880/measures",
+    "default_serving_g": 115,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2706880,
+        "grams": 115,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 48,
+      "name_en": "sandwiches",
+      "name_vi": "sandwiches"
+    }
+  },
+  {
+    "canonical_id": "food-v2-056",
+    "name": "DENNY'S, spaghetti and meatballs (1 serving)",
+    "source": "https://fdc.nal.usda.gov/food-details/169845/measures",
+    "default_serving_g": 565.0,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 169845,
+        "grams": 565.0,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 56,
+      "name_en": "spaghetti",
+      "name_vi": "spaghetti"
+    }
+  },
+  {
+    "canonical_id": "food-v2-072",
+    "name": "Stew, beef (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/2706592/measures",
+    "default_serving_g": 255,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2706592,
+        "grams": 255,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 72,
+      "name_en": "stew",
+      "name_vi": "stew"
+    }
+  },
+  {
+    "canonical_id": "food-v2-084",
+    "name": "Chicken wing, fried, coated, from raw (1 wing, any size)",
+    "source": "https://fdc.nal.usda.gov/food-details/2706065/measures",
+    "default_serving_g": 55,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2706065,
+        "grams": 55,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 84,
+      "name_en": "fried chicken",
+      "name_vi": "fried chicken"
+    }
+  },
+  {
+    "canonical_id": "food-v2-090",
+    "name": "Beef, steak, chuck (1 regular)",
+    "source": "https://fdc.nal.usda.gov/food-details/2705825/measures",
+    "default_serving_g": 160,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2705825,
+        "grams": 160,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 90,
+      "name_en": "steak",
+      "name_vi": "steak"
+    }
+  },
+  {
+    "canonical_id": "food-v2-116",
+    "name": "Mixed salad greens, raw (1 cup)",
+    "source": "https://fdc.nal.usda.gov/food-details/2709792/measures",
+    "default_serving_g": 35,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2709792,
+        "grams": 35,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 116,
+      "name_en": "green salad",
+      "name_vi": "green salad"
+    }
+  },
+  {
+    "canonical_id": "food-v2-177",
+    "name": "Taco, NFS (1 small/regular)",
+    "source": "https://fdc.nal.usda.gov/food-details/2708514/measures",
+    "default_serving_g": 105,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 2708514,
+        "grams": 105,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 177,
+      "name_en": "tacos",
+      "name_vi": "tacos"
+    }
+  },
+  {
+    "canonical_id": "food-v2-252",
+    "name": "Cookies, brownies, prepared from recipe (1 brownie (2\" square))",
+    "source": "https://fdc.nal.usda.gov/food-details/174949/measures",
+    "default_serving_g": 24.0,
+    "reviewed": true,
+    "ingredients": [
+      {
+        "fdc_id": 174949,
+        "grams": 24.0,
+        "is_optional": false
+      }
+    ],
+    "model_mapping": {
+      "index": 249,
+      "name_en": "brownie",
+      "name_vi": "brownie"
+    }
+  }
+]

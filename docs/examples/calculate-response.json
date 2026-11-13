@@ -1,0 +1,193 @@
+{
+  "recipe_id": 1,
+  "food_id": 1,
+  "food_name": "Cơm tấm",
+  "recipe_name": "Cơm tấm sườn trứng - test",
+  "is_customized": true,
+  "profile_type": "ingredient_recipe",
+  "nutrition": {
+    "total_grams": 370.0,
+    "ingredients": [
+      {
+        "id": 1,
+        "name": "Cơm trắng (gạo hạt vừa, đã nấu)",
+        "grams": 180.0
+      },
+      {
+        "id": 2,
+        "name": "Sườn cốt lết heo nướng (phần ăn được)",
+        "grams": 100.0
+      },
+      {
+        "id": 3,
+        "name": "Dưa leo tươi (còn vỏ)",
+        "grams": 40.0
+      },
+      {
+        "id": 4,
+        "name": "Trứng gà chiên (ốp la)",
+        "grams": 50.0
+      }
+    ],
+    "nutrients": {
+      "energy": {
+        "name": "Năng lượng",
+        "amount": 547.0,
+        "unit": "kcal",
+        "status": "complete",
+        "missing_ingredient_ids": []
+      },
+      "protein": {
+        "name": "Protein",
+        "amount": 36.96,
+        "unit": "g",
+        "status": "complete",
+        "missing_ingredient_ids": []
+      },
+      "carbohydrates": {
+        "name": "Carbohydrate",
+        "amount": 53.33,
+        "unit": "g",
+        "status": "complete",
+        "missing_ingredient_ids": []
+      },
+      "total_fat": {
+        "name": "Chất béo tổng",
+        "amount": 18.9,
+        "unit": "g",
+        "status": "complete",
+        "missing_ingredient_ids": []
+      },
+      "saturated_fat": {
+        "name": "Chất béo bão hòa",
+        "amount": 5.8,
+        "unit": "g",
+        "status": "complete",
+        "missing_ingredient_ids": []
+      },
+      "fiber": {
+        "name": "Chất xơ",
+        "amount": null,
+        "unit": "g",
+        "status": "incomplete",
+        "missing_ingredient_ids": [
+          1
+        ]
+      },
+      "total_sugars": {
+        "name": "Đường tổng",
+        "amount": null,
+        "unit": "g",
+        "status": "incomplete",
+        "missing_ingredient_ids": [
+          1
+        ]
+      },
+      "sodium": {
+        "name": "Natri",
+        "amount": 159.3,
+        "unit": "mg",
+        "status": "complete",
+        "missing_ingredient_ids": []
+      },
+      "calcium": {
+        "name": "Canxi",
+        "amount": 66.8,
+        "unit": "mg",
+        "status": "complete",
+        "missing_ingredient_ids": []
+      },
+      "iron": {
+        "name": "Sắt",
+        "amount": 2.21,
+        "unit": "mg",
+        "status": "complete",
+        "missing_ingredient_ids": []
+      },
+      "potassium": {
+        "name": "Kali",
+        "amount": 531.0,
+        "unit": "mg",
+        "status": "complete",
+        "missing_ingredient_ids": []
+      },
+      "vitamin_c": {
+        "name": "Vitamin C",
+        "amount": 1.12,
+        "unit": "mg",
+        "status": "complete",
+        "missing_ingredient_ids": []
+      },
+      "trans_fat": {
+        "name": "Chất béo trans",
+        "amount": null,
+        "unit": "g",
+        "status": "incomplete",
+        "missing_ingredient_ids": [
+          1
+        ]
+      },
+      "cholesterol": {
+        "name": "Cholesterol",
+        "amount": 284.5,
+        "unit": "mg",
+        "status": "complete",
+        "missing_ingredient_ids": []
+      },
+      "added_sugars": {
+        "name": "Đường bổ sung",
+        "amount": null,
+        "unit": "g",
+        "status": "incomplete",
+        "missing_ingredient_ids": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "vitamin_a": {
+        "name": "Vitamin A",
+        "amount": 113.5,
+        "unit": "µg RAE",
+        "status": "complete",
+        "missing_ingredient_ids": []
+      },
+      "vitamin_d": {
+        "name": "Vitamin D",
+        "amount": 1.9,
+        "unit": "µg",
+        "status": "complete",
+        "missing_ingredient_ids": []
+      },
+      "vitamin_b12": {
+        "name": "Vitamin B12",
+        "amount": 1.07,
+        "unit": "µg",
+        "status": "complete",
+        "missing_ingredient_ids": []
+      },
+      "folate": {
+        "name": "Folate tổng",
+        "amount": 31.9,
+        "unit": "µg",
+        "status": "complete",
+        "missing_ingredient_ids": []
+      },
+      "magnesium": {
+        "name": "Magie",
+        "amount": 60.1,
+        "unit": "mg",
+        "status": "complete",
+        "missing_ingredient_ids": []
+      },
+      "zinc": {
+        "name": "Kẽm",
+        "amount": 3.67,
+        "unit": "mg",
+        "status": "complete",
+        "missing_ingredient_ids": []
+      }
+    }
+  }
+}

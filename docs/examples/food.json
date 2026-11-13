@@ -1,0 +1,20 @@
+{
+  "canonical_id": "food-v2-023",
+  "mapped": true,
+  "food": {
+    "id": 1,
+    "canonical_id": "food-v2-023",
+    "model_class_index": 23,
+    "name_vi": "Cơm tấm",
+    "name_en": "Broken Rice"
+  },
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Cơm tấm sườn trứng - test",
+      "default_serving_g": 370.0,
+      "profile_type": "ingredient_recipe"
+    }
+  ],
+  "nutrition_status": "requires_recipe_confirmation_and_portion"
+}
